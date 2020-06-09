@@ -1,0 +1,63 @@
+.content-margined {
+  position: absolute;
+  top: 60px;
+  left: 110px;
+  margin: 10px;
+  padding: 0;
+  width: calc(100% - 130px);
+  z-index: 90;
+}
+
+.content-margined .shop-header {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #d5d5d5;
+}
+
+.content-margined .table {
+  margin-top: 20px;
+}
+
+.content-margined .table th, .content-margined .table td {
+  text-align: left;
+}
+
+.content-margined .table tbody > tr:nth-child(even) {
+  background-color: #f0f0f0;
+}
+
+.content-margined .table td > button {
+  color: #e94057;
+  padding: 0.5rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.content-margined .table td > button:hover {
+  border: 0.1rem solid #e94057;
+}
+
+.content-margined .table td > button:focus {
+  outline: none;
+}
+
+.content-margined .shop-rating {
+  border-top: 1px solid #d5d5d5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 30px;
+}
+
+.content-margined .shop-rating h5 {
+  margin: 15px 20px 0 0;
+}
+
+.content-margined .shop-rating .star-rating {
+  margin: 15px 20px 0 0;
+}
+
+.content-margined .shop-rating span {
+  margin: 17px 20px 0 0;
+  font-size: 16px;
+}
+/*# sourceMappingURL=ReviewsPage.css.map */

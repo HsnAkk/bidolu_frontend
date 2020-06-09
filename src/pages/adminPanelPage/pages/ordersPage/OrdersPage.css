@@ -1,0 +1,57 @@
+.content-margined {
+  position: absolute;
+  top: 60px;
+  left: 110px;
+  margin: 10px;
+  padding: 0;
+  width: calc(100% - 130px);
+  z-index: 90;
+}
+
+.content-margined .shop-header {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #d5d5d5;
+}
+
+.content-margined .shop-header ul {
+  margin: 10px 0 0;
+  padding: 0;
+  display: block;
+}
+
+.content-margined .shop-header ul li {
+  list-style: none;
+  margin-right: 15px;
+}
+
+.content-margined .shop-header ul li label {
+  padding-left: 10px;
+}
+
+.content-margined .table {
+  margin-top: 20px;
+}
+
+.content-margined .table th, .content-margined .table td {
+  text-align: left;
+}
+
+.content-margined .table tbody > tr:nth-child(even) {
+  background-color: #f0f0f0;
+}
+
+.content-margined .table td > button {
+  color: #e94057;
+  padding: 0.5rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.content-margined .table td > button:hover {
+  border: 0.1rem solid #e94057;
+}
+
+.content-margined .table td > button:focus {
+  outline: none;
+}
+/*# sourceMappingURL=OrdersPage.css.map */

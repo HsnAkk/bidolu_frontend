@@ -1,0 +1,36 @@
+.shops-container {
+    width: 81%;
+    margin: 130px auto 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    .filter-part {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: #FCFBFB;
+        height: 50px;
+        color: black;
+        margin-bottom: 20px;
+        padding: 15px;
+        .per-page {
+            & select {
+                font-size: 16px;
+                color: grey;
+                background: #FCFBFB;
+                width: 150px;
+                height: 50px;
+                border: none;
+                outline: none;
+            } 
+        }
+    }
+    .shops-details {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 10px 0;
+
+    }
+}

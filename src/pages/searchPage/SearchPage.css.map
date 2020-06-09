@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,iBAAiB,CAAC;EACd,WAAW,EAAE,KAAK;EAClB,KAAK,EAAE,GAAG;EACV,MAAM,EAAE,MAAM;CAEjB",
+    "sources": [
+        "SearchPage.scss"
+    ],
+    "names": [],
+    "file": "SearchPage.css"
+}

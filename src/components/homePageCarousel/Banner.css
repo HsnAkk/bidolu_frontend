@@ -1,0 +1,159 @@
+.banner-box {
+  padding-top: 110px;
+  height: calc(100vh - 110px);
+  width: 80%;
+  margin: 0 auto;
+}
+
+.banner-box .carousel-container {
+  position: relative;
+}
+
+.banner-box .carousel-container .carousel-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.banner-box .carousel-container .carousel-item .left-item {
+  width: 40%;
+  position: relative;
+}
+
+.banner-box .carousel-container .carousel-item .left-item .carousel-label {
+  position: absolute;
+  top: 35%;
+  left: 0;
+}
+
+.banner-box .carousel-container .carousel-item .left-item .carousel-label h3 {
+  font-family: 'Shadows Into Light', cursive;
+  text-align: left;
+  font-size: 40px;
+  color: #932193;
+  font-weight: bold;
+}
+
+.banner-box .carousel-container .carousel-item .left-item .carousel-label p {
+  font-family: 'Shadows Into Light', cursive;
+  text-align: left;
+  font-size: 30px;
+  font-weight: bold;
+  color: #1d1c1d;
+}
+
+.banner-box .carousel-container .carousel-item .right-item {
+  width: 60%;
+}
+
+.banner-box .carousel-container .carousel-item .right-item img {
+  height: calc(100vh - 110px);
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.banner-box .carousel-container .carousel-item:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 20%;
+  background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(transparent));
+  background: linear-gradient(#fff, transparent);
+  z-index: 110;
+}
+
+.banner-box .carousel-container .carousel-item:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  background: -webkit-gradient(linear, left bottom, left top, from(#fff), to(transparent));
+  background: linear-gradient(360deg, #fff, transparent);
+  z-index: 110;
+}
+
+.banner-box .carousel-container .carousel-control-prev-icon {
+  position: absolute;
+  top: 35%;
+  left: 500px;
+  border-radius: 50%;
+}
+
+.banner-box .carousel-container .carousel-control-prev-icon:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+}
+
+.banner-box .carousel-container .carousel-control-next-icon {
+  position: absolute;
+  top: 35%;
+  right: 30px;
+}
+
+.banner-box .carousel-container .carousel-control-next-icon:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+}
+
+.banner-box .carousel-cards {
+  width: 96%;
+  height: 200px;
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  background: #f5f5f5;
+  display: block;
+  z-index: 120;
+  margin: 0 2%;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.banner-box .carousel-cards .cardbox {
+  color: #FC0097;
+}
+
+.banner-box .carousel-cards .cardbox .icon {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background: #f4efef;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 30px;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.banner-box .carousel-cards .cardbox .icon:hover > * {
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3);
+}
+
+.banner-box .carousel-cards .cardbox p {
+  text-align: center;
+  color: #4E3043;
+  font-size: 14px;
+  padding: 15px 0 40px;
+  font-weight: 200;
+}
+
+.banner-box .carousel-cards .cardbox:hover p {
+  font-weight: 400;
+}
+/*# sourceMappingURL=Banner.css.map */

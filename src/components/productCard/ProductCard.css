@@ -1,0 +1,138 @@
+.containerOut {
+  width: 33.3%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 40px;
+}
+
+.containerOut:hover {
+  border: 1px solid #f5f5f5;
+  border-bottom: 5px solid #BF1B79;
+}
+
+.containerOut .new {
+  position: absolute;
+  top: 0;
+  left: 20px;
+  width: 50px;
+  height: 20px;
+  z-index: 100;
+}
+
+.containerOut .sideBar {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  width: 40px;
+  height: 80px;
+  z-index: 100;
+  opacity: 0;
+  -webkit-transition: .7s;
+  transition: .7s;
+}
+
+.containerOut .sideBar .buttons {
+  width: 40px;
+  height: 40px;
+  padding: 5px;
+  border-radius: 50%;
+  border: 1px solid black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 5px 0;
+  position: relative;
+}
+
+.containerOut .sideBar .buttons.bg-black {
+  background: black;
+  color: white;
+  cursor: pointer;
+  opacity: 1;
+}
+
+.containerOut .sideBar .buttons:hover {
+  background: black;
+  color: white;
+  cursor: pointer;
+}
+
+.containerOut:hover .sideBar {
+  opacity: 1;
+}
+
+.containerOut .containerIn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 0 0 25px;
+}
+
+.containerOut .containerIn .image {
+  width: 100%;
+  height: 300px;
+  background: lightblue;
+}
+
+.containerOut .containerIn .image a img {
+  width: 100%;
+  height: 100%;
+}
+
+.containerOut .containerIn .brand {
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 5px 0 0;
+}
+
+.containerOut .containerIn .name {
+  font-weight: 450;
+  padding: 10px 0 0;
+}
+
+.containerOut .containerIn .price {
+  font-weight: 500;
+  padding: 10px 0 0;
+}
+
+.containerOut .containerIn .rating {
+  padding: 5px 0 10px;
+}
+
+.containerOut .containerIn .addCart {
+  width: 100%;
+  height: 35px;
+  line-height: 35px;
+  border: 1px solid black;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.containerOut .containerIn .addCart span {
+  position: absolute;
+  -webkit-transform: translate(-28px, -2px);
+          transform: translate(-28px, -2px);
+  margin-right: 10px;
+}
+
+.containerOut .containerIn .addCart:hover {
+  background: black;
+  color: white;
+  cursor: pointer;
+}
+/*# sourceMappingURL=ProductCard.css.map */

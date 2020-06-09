@@ -1,0 +1,54 @@
+.container-box {
+  height: 50px;
+  width: calc(100% - 90px);
+  position: fixed;
+  top: 0px;
+  left: 90px;
+  border-bottom: 1px solid #e4e4e4;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: white;
+  z-index: 100;
+}
+
+.container-box div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container-box div > div {
+  margin-right: 10px;
+}
+
+.container-box div div:nth-of-type(2) {
+  text-transform: capitalize;
+}
+
+.container-box div div:nth-of-type(3) {
+  border: 1px solid grey;
+  padding: 4px;
+  border-radius: 3px;
+}
+
+.container-box div div:nth-of-type(3):hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  color: red;
+  border: 1px solid red;
+  cursor: pointer;
+}
+/*# sourceMappingURL=TopNavBar.css.map */

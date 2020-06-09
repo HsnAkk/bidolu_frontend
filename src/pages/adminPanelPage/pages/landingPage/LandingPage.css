@@ -1,0 +1,23 @@
+.page-content {
+  position: absolute;
+  top: 60px;
+  left: 110px;
+  width: calc(100% - 110px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  text-decoration: none;
+}
+
+.page-content div a {
+  color: black;
+}
+
+.page-content:hover div a {
+  text-decoration: none;
+}
+/*# sourceMappingURL=LandingPage.css.map */

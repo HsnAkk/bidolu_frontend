@@ -1,0 +1,84 @@
+.reviewContainer {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border: 1px solid #f4d5d5;
+  margin: 15px 0;
+  padding: 10px;
+}
+
+.reviewContainer .review-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.reviewContainer .review-box > div {
+  padding: 5px 0;
+}
+
+.reviewContainer .review-box div:nth-child(1) span {
+  margin-left: 10px;
+  color: grey;
+  font-size: 14px;
+}
+
+.reviewContainer .review-box div:nth-child(2) {
+  font-weight: 600;
+}
+
+.reviewContainer .review-box div:nth-child(3) {
+  font-size: 13px;
+}
+
+.reviewContainer .review-box div:nth-child(3) > span {
+  font-weight: 550;
+}
+
+.reviewContainer .review-box div:nth-child(4) {
+  color: grey;
+  font-size: 14px;
+}
+
+.reviewContainer .buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.reviewContainer .buttons button {
+  background: -webkit-gradient(linear, left top, right top, from(#ff0099), to(#493240));
+  background: linear-gradient(to right, #ff0099, #493240);
+  height: 30px;
+  color: white;
+  border-radius: 5px;
+  margin-top: 10px;
+  border: none;
+  outline: none !important;
+  font-size: 13px;
+}
+
+.reviewContainer .buttons button:hover {
+  background: -webkit-gradient(linear, left top, right top, from(#F27121), color-stop(#E94057), to(#8A2387));
+  background: linear-gradient(to right, #F27121, #E94057, #8A2387);
+  color: white;
+}
+/*# sourceMappingURL=ReviewCard.css.map */

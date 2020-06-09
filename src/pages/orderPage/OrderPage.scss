@@ -1,0 +1,87 @@
+.placeOrder-box {
+    padding-top: 110px;
+
+    .placeorder{
+        display: flex;
+        padding: 1rem;
+        justify-content: space-between;
+    
+        .placeorder-info{
+            flex: 3;
+
+            & > div{
+                border: .05rem solid #e9e5e5;
+                border-radius: .2rem;
+                background-color: #fcfcfc;
+                padding: 1rem;
+                margin: .5rem;
+                & > div {
+                  color: grey;
+                  font-size: 0.9rem;
+                }
+            }
+            & > div:first-child{
+                margin-top: 0;
+            }
+            .cart-list-container {
+                padding-left: 1rem;
+                li {
+                    display: flex;
+                    justify-content: space-between;
+                    padding-bottom: .7rem;
+                    margin-bottom: .7rem;
+                    border-bottom:.1rem solid #e9e5e5;
+                    & img{
+                    max-width: 6rem;
+                    max-height: 6rem;
+                    margin-right: 1.5rem;
+                    }
+                    &:first-child{
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: flex-end;
+                    }
+                    .cart-name{
+                    flex: 8 1;
+                    }
+                    .cart-price{
+                    flex: 1 1;
+                    font-size: 1.6rem;
+                    text-align: right;
+                    }
+                }
+            }
+        }
+        .placeorder-action-order{
+            flex: 1;
+            border: .05rem solid #d3cfcf;
+            border-radius: .2rem;
+            background-color: #fcfcfc;
+            padding: 1rem; 
+      
+            ul {
+                padding: 0;
+                list-style-type: none;
+
+                li.placeorder-actions-payment > div {
+                    width: 100%;
+                }
+                li {
+                    display: flex;
+                    justify-content: space-between;
+                    margin-bottom: 1rem;
+                    .spinner-box {
+                        width: 35px !important;
+                        height: 35px !important;
+                    }
+                    
+                    &:last-child {
+                        font-size: 1.4rem;
+                        font-weight: bold;
+                        color: #bb3383;
+                    }
+                }
+            }
+        } 
+    }
+}

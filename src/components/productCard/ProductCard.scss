@@ -1,0 +1,120 @@
+.containerOut {
+    width: 33.3%;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 40px;
+    &:hover {
+        border: 1px solid #f5f5f5;
+        border-bottom: 5px solid #BF1B79;
+    }
+    .new {
+        position: absolute;
+        top: 0;
+        left: 20px;
+        width: 50px;
+        height: 20px;
+        z-index: 100;
+    }
+    .sideBar {
+        position: absolute;
+        top: 0;
+        right: 10px;
+        width: 40px;
+        height: 80px;
+        z-index: 100;
+        opacity: 0;
+        transition: .7s;
+
+        .buttons {
+            width: 40px;
+            height: 40px;
+            padding: 5px;
+            border-radius: 50%;
+            border: 1px solid black;
+            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 5px 0;
+            position: relative;
+
+            &.bg-black {
+                background: black;
+                color: white;
+                cursor: pointer;
+                opacity: 1;
+            }
+
+            &:hover {
+                background: black;
+                color: white;
+                cursor: pointer;
+            }
+           
+        }
+
+        
+
+    }
+    &:hover .sideBar {
+        opacity: 1;
+    }
+    
+    .containerIn {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0 0 0 25px;
+
+        .image {
+            width: 100%;
+            height: 300px;
+            background: lightblue;
+            a img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .brand {
+            font-weight: 700;
+            text-transform: uppercase;
+            padding: 5px 0 0;
+        }
+        .name {
+            font-weight: 450;
+            padding: 10px 0 0;
+        }
+        .price {
+            font-weight: 500;
+            padding: 10px 0 0;
+        }
+        .rating {
+            padding: 5px 0 10px;
+        }
+        .addCart {
+            width: 100%;
+            height: 35px;
+            line-height: 35px;
+            border: 1px solid black;
+            text-align: center;
+            text-transform: uppercase;
+            span {
+                position: absolute;
+                transform: translate(-28px, -2px);
+                margin-right: 10px;
+            }
+            &:hover {
+                background: black;
+                color: white;
+                cursor: pointer;
+            }
+
+        }
+    }
+    
+
+
+
+
+}

@@ -1,0 +1,113 @@
+.shopcard-detail {
+  width: 100%;
+  min-height: 200px;
+  padding: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  -webkit-box-shadow: -3px -3px 5px #f2f4f4, 3px 3px 5px #f2f4f4;
+          box-shadow: -3px -3px 5px #f2f4f4, 3px 3px 5px #f2f4f4;
+}
+
+.shopcard-detail:hover {
+  -webkit-box-shadow: 10px 10px 10px #E8ECEC, -10px -10px 10px #E8ECEC;
+          box-shadow: 10px 10px 10px #E8ECEC, -10px -10px 10px #E8ECEC;
+}
+
+.shopcard-detail .card-image {
+  width: 170px;
+  height: 170px;
+}
+
+.shopcard-detail .card-shop-details {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding-left: 30px;
+}
+
+.shopcard-detail .card-shop-details a {
+  text-decoration: none;
+  color: #7d7a7a;
+}
+
+.shopcard-detail .card-shop-details a:hover {
+  color: black;
+}
+
+.shopcard-detail .card-shop-details h6 {
+  color: #D21182;
+}
+
+.shopcard-detail .card-shop-details .card-shop-details-bottom {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.shopcard-detail .card-shop-details .card-shop-details-bottom .starrating {
+  width: 200px;
+}
+
+.shopcard-detail .card-shop-details .card-shop-details-bottom .starrating span {
+  color: #f4a302;
+  font-size: 13px;
+  display: inline-block;
+  -webkit-transform: translateY(3px);
+          transform: translateY(3px);
+  padding-left: 8px;
+}
+
+.shopcard-detail .card-shop-details .card-shop-details-bottom .shop-buttons {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.shopcard-detail .card-shop-details .card-shop-details-bottom .shop-buttons button {
+  margin: 0 10px;
+  border-radius: 3px;
+  padding: 8px 10px;
+  font-size: 14px;
+  border: 1px solid #F27121;
+  background: -webkit-gradient(linear, left top, right top, from(#ff0099), to(#493240));
+  background: linear-gradient(to right, #ff0099, #493240);
+  color: white;
+}
+
+.shopcard-detail .card-shop-details .card-shop-details-bottom .shop-buttons button:hover {
+  background: -webkit-gradient(linear, left top, right top, from(#F27121), color-stop(#E94057), to(#8A2387));
+  background: linear-gradient(to right, #F27121, #E94057, #8A2387);
+}
+
+.shopcard-detail .card-shop-details .card-shop-details-bottom .shop-buttons button:focus {
+  outline: none;
+}
+/*# sourceMappingURL=ShopCard.css.map */

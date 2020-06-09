@@ -1,0 +1,55 @@
+.reviewContainer {
+    width: 100%;
+        display: flex;
+        justify-content: space-between;
+        border: 1px solid #f4d5d5;
+        margin: 15px 0;
+        padding: 10px;
+    .review-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        & > div {
+            padding: 5px 0;
+        }
+        & div:nth-child(1) {
+            & span {
+                margin-left: 10px;
+                color: grey;
+                font-size: 14px;    
+            }
+        }
+        & div:nth-child(2) {
+            font-weight: 600;
+        }
+        & div:nth-child(3) {
+            font-size: 13px;
+            & > span {
+                font-weight: 550;
+            }
+        }
+        & div:nth-child(4) {
+            color: grey;
+            font-size: 14px;
+        }
+    }
+    .buttons {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        button {
+            background: linear-gradient(to right, #ff0099, #493240); 
+            height: 30px;
+            color: white;
+            border-radius: 5px;
+            margin-top: 10px;
+            border: none;
+            outline: none !important;
+            font-size: 13px; 
+            &:hover {
+                background: linear-gradient(to right, #F27121, #E94057, #8A2387);
+                color: white;
+            }
+        }
+    }
+}

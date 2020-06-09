@@ -1,0 +1,71 @@
+.shopcard-detail {
+    width: 100%;
+    min-height: 200px;
+    padding: 15px;
+    display: flex;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    box-shadow: -3px -3px 5px #f2f4f4, 3px 3px 5px #f2f4f4;
+    &:hover {
+        box-shadow: 10px 10px 10px #E8ECEC, -10px -10px 10px #E8ECEC;
+    }
+    .card-image {
+        width: 170px;
+        height: 170px;
+    }
+    .card-shop-details {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding-left: 30px;  
+        a {
+            text-decoration: none;
+            color: #7d7a7a;
+            &:hover {
+                color: black;
+            }
+        }
+        h6 {
+            color: #D21182;
+        }
+        .card-shop-details-bottom {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .starrating {
+                width: 200px;
+                span {
+                    color: #f4a302;
+                    font-size: 13px;
+                    display: inline-block;
+                    transform: translateY(3px);
+                    padding-left: 8px;
+                }
+            }
+            .shop-buttons {
+                width: 100%;
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;    
+                button {
+                    margin: 0 10px;
+                    border-radius: 3px;
+                    padding: 8px 10px;
+                    font-size: 14px;
+                    border: 1px solid #F27121;
+                    background: linear-gradient(to right, #ff0099, #493240); 
+                    color: white;
+                    &:hover {
+                        background: linear-gradient(to right, #F27121, #E94057, #8A2387);  
+                    }
+                    &:focus {
+                        outline: none;
+                    }
+                }
+            }
+        }
+    }
+}

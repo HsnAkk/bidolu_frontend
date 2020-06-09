@@ -1,0 +1,18 @@
+.page-content {
+    position: absolute;
+    top: 60px;
+    left: 110px;
+    width: calc(100% - 110px);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-decoration: none;
+
+    div a {
+      color: black;
+    }
+    &:hover div a {
+      text-decoration: none;
+    }
+
+  }  

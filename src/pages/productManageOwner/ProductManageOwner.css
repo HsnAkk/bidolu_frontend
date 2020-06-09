@@ -1,0 +1,211 @@
+.content-margined {
+  position: absolute;
+  top: 60px;
+  left: 110px;
+  margin: 10px;
+  padding: 0;
+  width: calc(100% - 130px);
+  z-index: 90;
+  overflow: auto;
+}
+
+.content-margined #preShop {
+  height: 40px;
+  margin-top: 10px;
+  padding: 0.5rem;
+  border: .05rem #c0c0c0 solid;
+  border-radius: .2rem;
+}
+
+.content-margined #preShop:focus {
+  outline: none;
+}
+
+.content-margined .product-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #d5d5d5;
+  width: 100%;
+}
+
+.content-margined .product-header button {
+  width: 180px;
+}
+
+.content-margined .form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 20px;
+}
+
+.content-margined .form .form-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 30rem;
+  padding: 1rem 2rem;
+  border: .1rem #c0c0c0 solid;
+  border-radius: .2rem;
+  list-style-type: none;
+}
+
+.content-margined .form .form-container li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 0.4rem;
+}
+
+.content-margined .form .form-container li h4 {
+  text-align: center;
+}
+
+.content-margined .form .form-container li input, .content-margined .form .form-container li textarea {
+  padding: 0.5rem;
+  border: .05rem #c0c0c0 solid;
+  border-radius: .2rem;
+}
+
+.content-margined .form .form-container li input:focus, .content-margined .form .form-container li textarea:focus {
+  outline: none;
+}
+
+.content-margined .form .form-container li select {
+  height: 40px;
+  padding: 0.5rem;
+  border: .05rem #c0c0c0 solid;
+  border-radius: .2rem;
+  color: grey;
+}
+
+.content-margined .form .form-container li select:focus {
+  outline: none;
+}
+
+.content-margined .form .form-container li#sca {
+  padding: 30px 0 10px;
+  border: 1px solid #c0c0c0;
+  border-radius: .2rem;
+}
+
+.content-margined .form .form-container li#sca > * {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.content-margined .form .form-container li#sca div.sca_div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.content-margined .form .form-container li#sca div.sca_div button#delete_button {
+  margin-left: 5px;
+  display: inline-block;
+  border-radius: .2rem;
+  margin-top: 0;
+}
+
+.content-margined .form .form-container li#sca input, .content-margined .form .form-container li#sca select {
+  border: .05rem #c0c0c0 solid;
+  border-radius: .05rem;
+  outline: none;
+}
+
+.content-margined .form .form-container li#sca button {
+  height: 40px;
+  background: #9a0088;
+  border-radius: .2rem;
+  outline: none;
+  color: white;
+  margin-top: 10px;
+}
+
+.content-margined .table {
+  margin-top: 20px;
+}
+
+.content-margined .table th, .content-margined .table td {
+  text-align: left;
+}
+
+.content-margined .table tbody > tr:nth-child(even) {
+  background-color: #f0f0f0;
+}
+
+.content-margined .table tbody tr td:nth-child(5) {
+  max-width: 300px;
+}
+
+.content-margined .table td > button {
+  color: #e94057;
+  padding: 0.5rem;
+}
+
+.content-margined .table td > button:hover {
+  border: 0.1rem solid #e94057;
+}
+
+.content-margined .table td > button:focus {
+  outline: none;
+}
+
+.content-margined .button {
+  padding: 0.7rem 0.8rem;
+  border-radius: 0.2rem;
+  border: .05rem #808080 solid;
+  color: #f5f5f5;
+  cursor: pointer;
+  outline: none;
+  margin: 5px;
+}
+
+.content-margined .button.primary {
+  border: none;
+  color: #f5f5f5;
+  background: -webkit-gradient(linear, left top, right top, from(#F27121), color-stop(#E94057), to(#8A2387));
+  background: linear-gradient(to right, #F27121, #E94057, #8A2387);
+}
+
+.content-margined .button.primary:hover {
+  background: -webkit-gradient(linear, left top, right top, from(#8A2387), color-stop(#E94057), to(#F27121));
+  background: linear-gradient(to right, #8A2387, #E94057, #F27121);
+}
+
+.content-margined .button.secondary {
+  border: .1rem #d5d5d5 solid;
+  color: #e94057;
+  background-color: #f0f0f0;
+}
+
+.content-margined .button.secondary:hover {
+  border: 0.1rem solid #e94057;
+}
+/*# sourceMappingURL=ProductManageOwner.css.map */
